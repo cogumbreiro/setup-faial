@@ -1,7 +1,5 @@
 name: 'Setup faial'
-description: |
-  Faial is a static analyzer for CUDA kernels. This action downloads Faial
-  and makes the binary `faial-drf` available in the `PATH`.
+description: Sets up Faial, a static analyzer for CUDA kernels.
 
 author: 'cogumbreiro'
 branding:
