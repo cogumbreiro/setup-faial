@@ -20,10 +20,10 @@ Use action `cogumbreiro/setup-faial`. You can optional set one parameter:
 # Tutorial
 
 The repository [`cogumbreiro/faial-tutorial`](https://github.com/cogumbreiro/faial-tutorial)
-gives a small tutorial on how to use `faial-drf` to check a kernel. The
+serves as an example of using Faial as a GitHub Action. The
 following is a minimal example of setting up Faial to check a file called `saxpy.cu` that is located in the root of the repository.
 
-Create the file `.github/workflows/run.yml` with the following code:
+Create the file [`.github/workflows/run.yml`](https://github.com/cogumbreiro/faial-tutorial/blob/main/.github/workflows/run.yml) with the following code:
 
 ```yaml
 on: [push]
