@@ -1,0 +1,19 @@
+name: 'Setup faial'
+description: |
+  Faial is a static analyzer for CUDA kernels. This action downloads Faial
+  and makes the binary `faial-drf` available in the `PATH`.
+
+author: 'cogumbreiro'
+branding:
+  icon: 'cpu'
+  color: 'purple'
+inputs:
+  version:
+    description: |
+      Specifies a specific version of faial, which is given by the branch name,
+      or by the commit hash id. The default (`main`) represents the latest
+      version.
+    default: 'main'
+runs:
+  using: 'node16'
+  main: 'index.js'

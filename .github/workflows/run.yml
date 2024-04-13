@@ -1,0 +1,13 @@
+on: [push]
+
+jobs:
+  setup_faial:
+    runs-on: ubuntu-latest
+    name: Setup faial
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v1
+    - name: Download faial and setup path
+      uses: ./
+    - name: Ensure that faial-drf is in the path
+      run: which faial-drf
