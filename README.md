@@ -1,3 +1,14 @@
+<p align="center">
+  <img alt="INSERT FAIAL TAG LINE" src="">
+</p>
+
+Verify your CUDA code with this github action.
+
+![FTP test](https://github.com/cogumbreiro/setup-faial/workflows/FTP%20Test/badge.svg)
+![FTPS test](https://github.com/cogumbreiro/setup-faial/workflows/FTPS%20Test/badge.svg)
+
+---
+
 # Setup Faial static analyzer
 
 [Faial](https://gitlab.com/umb-svl/faial/) is a static analyzer for CUDA kernels

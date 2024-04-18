@@ -1,3 +1,5 @@
+name: faial-install
+
 on: [push]
 
 jobs:
